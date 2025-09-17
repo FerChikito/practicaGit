@@ -16,3 +16,6 @@ if repos:
     print("found the following GitHub repository")
     for idx, repo in enumerate(repos, 1):
         print(f"{idx}. {repo}")
+else:
+    print("No GitHub repositories found in C:\Users\cfern\OneDrive\Desktop\practica git")
+    print("please provide a GitHub repository URL")
